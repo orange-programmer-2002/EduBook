@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1NuGqtB14aCmiPyk0hbJaGvx1uyyNwejvjoGt/XBmAVp3sQaL6Y4OYg61QXfkwYXLz8MtIrAofxrTVYGZEwtoQ==",
+  "dgSpecHash": "lwqmRD3xK4d2EK5cG6Bedpc5J98sdOg6DNMdAwtz/Wh++UVMzVDCqKXOKDfixXR3W9DeDcJOmpVM3VxWBMQlFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\EduBook.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.0\\microsoft.extensions.identity.stores.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.logging.debug\\6.0.0\\microsoft.extensions.logging.debug.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identity.client\\4.21.1\\microsoft.identity.client.4.21.1.nupkg.sha512",

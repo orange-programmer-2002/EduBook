@@ -3,11 +3,6 @@ using EduBook.DataAccess.Data;
 using EduBook.DataAccess.Repository.IRepository;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EduBook.DataAccess.Repository
 {
