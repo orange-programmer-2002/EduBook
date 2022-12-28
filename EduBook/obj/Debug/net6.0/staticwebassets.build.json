@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "z4n1VsDzj9MJjA8JLtm0ERSpOj4RhFfpRtuHiZrY4yU=",
+  "Hash": "3UeOjDT2HVetLAn2nf8Ka+5Zn4M/bSSMWE7Hj74km6M=",
   "Source": "EduBook",
   "BasePath": "_content/EduBook",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\category.js"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\wwwroot\\js\\covertype.js",
+      "SourceId": "EduBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\wwwroot\\",
+      "BasePath": "_content/EduBook",
+      "RelativePath": "js/covertype.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\covertype.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\wwwroot\\js\\site.js",
