@@ -562,3 +562,5 @@ C:\Users\Admin\source\repos\EduBook\EduBook\obj\Debug\net6.0\ref\EduBook.dll
 C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\Dapper.dll
 C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\EduBook.Utility.dll
 C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\EduBook.Utility.pdb
+C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
