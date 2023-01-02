@@ -28,10 +28,8 @@ namespace EduBook.Areas.Admin.Controllers
             {
                 return View(coverType);
             }
-            var parameter = new DynamicParameters();
-            parameter.Add("@Id", id);
-            coverType = _db.SP_Call.OneRecord<CoverType>(SD.Proc_CoverType_Get, parameter);
-            if (coverType == null) 
+            coverType = _db.CoverType.Get(id.GetValueOrDefault());
+            if (coverType == null)
             {
                 return NotFound();
             }
@@ -41,21 +39,19 @@ namespace EduBook.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _db.SP_Call.List<CoverType>(SD.Proc_CoverType_GetAll, null);
+            var allObj = _db.CoverType.GetAll();
             return Json(new { data = allObj });
         }
 
         [HttpDelete]
         public IActionResult Delete(int id)
         {
-            var parameter = new DynamicParameters();
-            parameter.Add("@Id", id);
-            var objFromDb = _db.SP_Call.OneRecord<CoverType>(SD.Proc_CoverType_Get, parameter);
+            var objFromDb = _db.CoverType.Get(id);
             if (objFromDb == null)
             {
                 return Json(new { success = false, message = "Error While Deleting!" });
             }
-            _db.SP_Call.Execute(SD.Proc_CoverType_Delete, parameter);
+            _db.CoverType.Remove(objFromDb);
             _db.Save();
             return Json(new { success = true, message = "Deleted Successfully" });
 
@@ -65,19 +61,16 @@ namespace EduBook.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(CoverType coverType)
         {
-            if (ModelState.IsValid) 
+            if (ModelState.IsValid)
             {
-                var parameter = new DynamicParameters();
-                parameter.Add("@Name", coverType.Name);
-                if (coverType.Id == 0) 
+                if (coverType.Id == 0)
                 {
-                    _db.SP_Call.Execute(SD.Proc_CoverType_Create, parameter);
+                    _db.CoverType.Add(coverType);
                     TempData["success"] = "Added Successfully";
-                } 
+                }
                 else
                 {
-                    parameter.Add("@Id", coverType.Id);
-                    _db.SP_Call.Execute(SD.Proc_CoverType_Update, parameter);
+                    _db.CoverType.Update(coverType);
                     TempData["success"] = "Updated Successfully";
                 }
                 _db.Save();
