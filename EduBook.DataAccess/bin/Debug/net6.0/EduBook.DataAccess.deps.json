@@ -1698,7 +1698,8 @@
       },
       "EduBook.Models/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "6.0.0"
         },
         "runtime": {
           "EduBook.Models.dll": {}
