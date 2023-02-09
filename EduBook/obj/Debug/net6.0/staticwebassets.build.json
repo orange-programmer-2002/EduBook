@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/HL+nBzgDcERRgukph23cqIc+g0UV1Wf8qm0iE0oMq8=",
+  "Hash": "eQ8gD+wvJMn5oTdZAcnloDnR1wUWnLRi4cp6Jk/KQKI=",
   "Source": "EduBook",
   "BasePath": "_content/EduBook",
   "Mode": "Default",
@@ -1207,6 +1207,23 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\64fd4c07-c817-43c9-b9d1-b6918973c1f5.jpg"
     },
     {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\wwwroot\\images\\products\\c0321977-d162-476b-b5d9-6af84bfe9f1e.png",
+      "SourceId": "EduBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\wwwroot\\",
+      "BasePath": "_content/EduBook",
+      "RelativePath": "images/products/c0321977-d162-476b-b5d9-6af84bfe9f1e.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\c0321977-d162-476b-b5d9-6af84bfe9f1e.png"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\wwwroot\\js\\category.js",
       "SourceId": "EduBook",
       "SourceType": "Discovered",
@@ -1290,6 +1307,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\wwwroot\\js\\user.js",
+      "SourceId": "EduBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\wwwroot\\",
+      "BasePath": "_content/EduBook",
+      "RelativePath": "js/user.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\user.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\source\\repos\\EduBook\\EduBook\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

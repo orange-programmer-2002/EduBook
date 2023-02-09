@@ -5,8 +5,6 @@ using EduBook.Utility;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System.Configuration;
 
 namespace EduBook
 {
@@ -25,6 +23,22 @@ namespace EduBook
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
             builder.Services.AddRazorPages();
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = $"/Identity/Account/Login";
+                options.LogoutPath = $"/Identity/Account/Login";
+                options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+            });
+            builder.Services.AddAuthentication().AddFacebook(options =>
+            {
+                options.AppId = "508496581393382";
+                options.AppSecret = "09be1df70e8ecc911fc5712e7eae0a2f";
+            });
+            builder.Services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = "434384580453-7m4i3shudnd89tbpipki4geqe7h127sj.apps.googleusercontent.com";
+                options.ClientSecret = "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";
+            });
 
             var app = builder.Build();
 

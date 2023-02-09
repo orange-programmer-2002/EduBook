@@ -4,6 +4,7 @@ namespace EduBook.Models
 {
     public class Category
     {
+        // khoá chính Id
         [Key]
         public int Id { get; set; }
         [Required]

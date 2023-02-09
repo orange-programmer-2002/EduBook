@@ -565,3 +565,8 @@ C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\Microsoft.Extension
 C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\MailKit.dll
+C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Admin\source\repos\EduBook\EduBook\bin\Debug\net6.0\BouncyCastle.Crypto.dll

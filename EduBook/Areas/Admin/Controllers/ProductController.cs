@@ -1,12 +1,16 @@
 ﻿using EduBook.DataAccess.Repository.IRepository;
 using EduBook.Models;
 using EduBook.Models.ViewModels;
+using EduBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Data;
 
 namespace EduBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _db;
