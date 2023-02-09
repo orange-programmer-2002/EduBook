@@ -4,6 +4,7 @@ namespace EduBook.Models
 {
     public class CoverType
     {
+        // khoá chính Id
         [Key]
         public int Id { get; set; }
         [Required]

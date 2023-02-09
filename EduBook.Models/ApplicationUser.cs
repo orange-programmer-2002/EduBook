@@ -12,6 +12,7 @@ namespace EduBook.Models
         public string? City { get; set; }
         public string? State { get; set; }
         public string? PostalCode { get; set; }
+        // khoá ngoại CompanyId -> Company
         public int? CompanyId { get; set; }
         [ForeignKey("CompanyId")]
         public Company? Company { get; set; }

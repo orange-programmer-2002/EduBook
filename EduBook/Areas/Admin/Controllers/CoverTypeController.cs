@@ -1,12 +1,13 @@
-﻿using Dapper;
-using EduBook.DataAccess.Repository.IRepository;
+﻿using EduBook.DataAccess.Repository.IRepository;
 using EduBook.Models;
 using EduBook.Utility;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EduBook.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CoverTypeController : Controller
     {
         private readonly IUnitOfWork _db;
