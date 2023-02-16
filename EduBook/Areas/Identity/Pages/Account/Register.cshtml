@@ -59,12 +59,16 @@
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
             @if (User.IsInRole(SD.Role_Admin)) {
+                <div class="form-group">
                 <label asp-for="Input.Role"></label>
                 @Html.DropDownListFor(m => m.Input.Role, Model.Input.Roles,
                 "Please Select A Role", new { @class = "form-control" })
+                </div>
+                    <div class="form-group">
                 <label asp-for="Input.CompanyId"></label>
                 @Html.DropDownListFor(m => m.Input.Role, Model.Input.Companies,
                 "Please Select A Company", new { @class = "form-control" })
+                </div>
             }
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary mt-2">Register</button>
         </form>
