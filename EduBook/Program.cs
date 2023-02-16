@@ -39,6 +39,12 @@ namespace EduBook
                 options.ClientId = "434384580453-7m4i3shudnd89tbpipki4geqe7h127sj.apps.googleusercontent.com";
                 options.ClientSecret = "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";
             });
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
 
             var app = builder.Build();
 
@@ -54,7 +60,7 @@ namespace EduBook
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
             app.UseAuthentication();
             app.UseAuthorization();
 
