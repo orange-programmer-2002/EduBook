@@ -15,12 +15,12 @@ function loadDataTable() {
             { "data": "name", "width": "15%" },
             { "data": "streetAddress", "width": "15%" },
             { "data": "city", "width": "10%" },
-            { "data": "status", "width": "10%" },
+            { "data": "state", "width": "10%" },
             { "data": "phoneNumber", "width": "15%" },
             {
                 "data": "isAuthorizedCompany",
                 "render": function (data) {
-                    if (data) {
+                    if (data == true) {
                         return `<input type="checkbox" disabled checked>`
                     } else {
                         return `<input type="checkbox" disabled>`
